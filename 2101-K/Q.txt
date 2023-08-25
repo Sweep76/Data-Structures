@@ -1,0 +1,8 @@
+PART 1*
+Create a function with the following specification: Given a List, the function shall convert the given list into a hash table in-place by manipulating the next fields accordingly to properly link the nodes together. These nodes will be connected with the corresponding indices of the hash table array inside the HashTable structure to be created and returned to the calling function afterwards. 
+
+PART 2*
+Create a function that deletes an element from the given hash table. The function shall return the index in the virtual heap where the item is originally deleted. For failed deletion attempts, return -1 instead.
+
+*Both functions will invoke a function described as follows:
+char hash(int elem) - returns a key value corresponding to the index of the hash table based on the given integer input. Obtained by getting the remainder when dividing the sum of the digits of the integer by the size of the bucket. Example: 567 returns 8 (sum: 18, table size: 10)
