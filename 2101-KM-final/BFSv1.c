@@ -4,6 +4,9 @@
 #define VISITED -1
 #define UNVISITED -2
 
+
+//comment option
+//comment option 2
 typedef struct node{
 	int elem;
 	struct node*link;

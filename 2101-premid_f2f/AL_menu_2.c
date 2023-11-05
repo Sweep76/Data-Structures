@@ -15,6 +15,9 @@ ArrayList init() {
   return newArray;
 }
 
+// test push
+
+
 void insert(ArrayList* arr, char element) {
     int i, j;
     if (arr->count >= MAX) {
